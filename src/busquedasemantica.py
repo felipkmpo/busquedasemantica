@@ -34,9 +34,6 @@ from sentence_transformers import util
 pelis = pd.read_csv("IMDBtop1000.csv")
 #print(pelis.head())
 
-#verificamos formato de columnas
-#pelis.info()
-
 """## Usando Sentence Transformer para crear embeddings"""
 
 #cargamos en la variable "model" un modelo de sentence transformes pre-entrenado llamado "all minilm-l6-v2",
@@ -80,8 +77,5 @@ while True:
 
     print(df.head()['Title'])
 
-print("Search completed.")
+print("busqueda finalizada.")
 
-df.info()
-
-print(df)
