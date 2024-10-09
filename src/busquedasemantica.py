@@ -31,7 +31,7 @@ from sentence_transformers import util
 #uploaded = files.upload()
 
 # TODO: mostrar los primeros 5 registros de dataframe
-pelis = pd.read_csv("src\IMDBtop1000.csv")
+pelis = pd.read_csv("IMDBtop1000.csv")
 #print(pelis.head())
 
 #verificamos formato de columnas
