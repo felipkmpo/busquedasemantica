@@ -31,13 +31,7 @@
 
 ***observacion:*** Confirmamos que se esta ejecuanto correctamete nuestro entorno cuando la palabra ***env*** se habilita.
 
-6. Para la correcta ejecucion de nuestro proyecto instalamos las librerias ***pandas y sentence-trasnformes***, por tal motivo ejecutamos las siguientes isntrucciones:
-     - pip install pandas
-     - pip install sentence-transformes
-
-     ![image](https://github.com/user-attachments/assets/cfa828e6-ab34-4923-9109-e61165515882)
-
-***observación:*** Con la instrucción "pip list", validamos que las librearias hayan quedado instaladas.
+6. Para la correcta ejecucion de nuestro proyecto se instalaron las librerias ***pandas y sentence-trasnformes***, el archivo "requerimientos.txt" esta disponible en el repositorio para la instalacion de las dependencias requeridas para ejecutar el proyecto.
 
 7. 
 10. 
