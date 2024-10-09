@@ -50,8 +50,12 @@ while True:
     if query_description.lower() == 'salir':
         break
 
-    query_embedding = model.encode([query_description])[0]
-    pelis['similarity'] = pelis.apply(lambda x: compute_similarity(x, query_embedding), axis=1)
+    #convertimos la descripcion de la consulta en un embedding.
+    """aqui aplicamos la funcion a cada fila del dataframe; lambda x representa una funcion anonima que toma una fila x del dataframe pelis.
+    Para cada película (x), la función calcula la similitud entre el embedding de esa película y el embedding de la consulta, utilizando la similitud del coseno."""
+    query_embedding = model.encode([query_description])[0] 
+    pelis['similarity'] = pelis.apply(lambda x: compute_similarity(x, query_embedding), axis=1) 
+   
     pelis = pelis.sort_values(by='similarity', ascending=False)
     pelis['Description_Cast'] = pelis['Description'] + ' ' + pelis['Cast']
 
@@ -69,22 +73,3 @@ while True:
 print("Resultados acumulados:")
 print(df_results)
 print("Busqueda Finalizada.")
-
-
-
-
-"""df = pelis
-
-while True:
-    query_description = input("ingrese descripcion de pelicula o escriba 'salir' para detener la busuqeda: ")
-    if query_description.lower() == 'salir':
-        break
-
-    query_embedding = model.encode([query_description])[0]
-    df['similarity'] = df.apply(lambda x: compute_similarity(x, query_embedding), axis=1)
-    df = df.sort_values(by='similarity', ascending=False)
-
-    print(df.head()['Title'])
-
-print("busqueda finalizada.")"""
-
