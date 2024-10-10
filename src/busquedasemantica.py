@@ -28,6 +28,16 @@ def compute_similarity(example, query_embedding):
     similarity = util.cos_sim(embedding, query_embedding).item()
     return similarity
 
+"""
+    Crea una nueva columna en el DataFrame que combina el nombre del director y el valor ganado
+    de la película para proporcionar más contexto.
+    """
+def info_rele(df_results):
+    
+    df_results['informacion_relevante'] = df_results.apply(lambda row: f"Director: {row['Cast']}, Valor ganado: {row['Info']}", axis=1)
+    return df_results
+
+
 ## Ejecuntando la búsqueda
 # Creamos un nuevo dataframe vacío para almacenar los resultados de búsqueda
 df_results = pd.DataFrame()
