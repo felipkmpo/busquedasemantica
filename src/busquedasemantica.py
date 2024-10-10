@@ -9,7 +9,6 @@ Original file is located at
 ## Instalando dependencias necesarias
 """#importamos libreria pandas
 
-
 #importamos libreria pandas, modulo "util" y "sentence trasnformers" incluidas dentro de las librerias sentence_transformers
 
 import pandas as pd
@@ -18,9 +17,8 @@ from sentence_transformers import util
 
 """## Entendiendo el dataset"""
 
-# TODO: mostrar los primeros 5 registros de dataframe
+# cargamos el dataset
 pelis = pd.read_csv("IMDBtop1000.csv")
-#print(pelis.head())
 
 """## Usando Sentence Transformer para crear embeddings"""
 
@@ -31,11 +29,10 @@ model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 embeddings = model.encode(pelis['Description'],batch_size=64,show_progress_bar=True)
 
 """Esta línea de código añade una nueva columna llamada 'embeddings' a su DataFrame pelis y almacena los embeddings
-generados en esa columna. También convierte las incrustaciones de una matriz NumPy a una lista."""
+generados en esa columna, por otro lado convierte las incrustaciones de una matriz NumPy a una lista."""
 pelis['embeddings'] = embeddings.tolist()
 
 """## Calculando la similitud usando la métrica de similitud por coseno, el código define una función llamada compute_similarity que calcula la similitud entre dos embeddings, utilizando la similitud del coseno."""
-
 def compute_similarity(example, query_embedding):
     embedding = example['embeddings']
     similarity = util.cos_sim(embedding, query_embedding).item()
@@ -44,7 +41,7 @@ def compute_similarity(example, query_embedding):
 ## Ejecuntando la búsqueda
 # Creamos un nuevo dataframe vacío para almacenar los resultados de búsqueda
 df_results = pd.DataFrame()
-#creamos un ciclo while con el fin de realizar varias busquedas hasta que el usuario decida detener la busqueda
+#creamos un ciclo while con el fin de realizar varias busquedas hasta que el usuario decida detener la busqueda mediante la palabra salir
 while True:
     query_description = input("Ingrese descripción de la película o escriba 'salir' para detener la búsqueda: ")
     if query_description.lower() == 'salir':
