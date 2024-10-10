@@ -1,6 +1,6 @@
 ## COMO EJECUTAR PROYECTO
 
-***Proyecto buscador de peliculas semantico*** este proyecto permite a un usuarios obtener recomendaciones sobre peliculas, el usuario debe ingresar la tematica o descripcion corta sobre una pelicula y el proyecto le mostrará en pantalla varias resultados, que contiene peliculas relacionadas con dicha tematica o descripcion, tambien mostrara informacion relevante sobre la misma (reparto, director y descripción).
+***Proyecto buscador de peliculas semantico*** este proyecto permite a un usuarios obtener recomendaciones sobre peliculas, el usuario debe ingresar la tematica o descripcion corta sobre una pelicula y el proyecto le mostrará en pantalla varias resultados, que contiene peliculas relacionadas con dicha tematica o descripcion, tambien mostrará informacion relevante sobre la misma (reparto, director y descripción).
 
 1. Decargar repositorio https://github.com/felipkmpo/busquedasemantica, descargar los archivos de la carpeta ***"src"***
    
@@ -35,8 +35,17 @@
 ***observacion:*** Confirmamos que se esta ejecutando correctamete nuestro entorno cuando la palabra ***env*** se habilita.
 
 
-7. Ahora continuamos con la ejecucion de nuestro proyecto, para eso debemos ejecutar el archivo .py con nombre "busquedasemantica.py", en el terminal nos situamos sobre el directorio src y ejecutamos el siguiente comando:
+7. Ahora continuamos con la ejecucion de nuestro proyecto, para eso debemos ejecutar el archivo .py con nombre "busquedasemantica.py", en el terminal nos situamos sobre el directorio src y ejecutamos el siguiente comando ***"python busquedasematica.py"*** :
 
+![image](https://github.com/user-attachments/assets/e870df14-0f0c-4b94-aa94-deeff6d12d4b)
+
+   - el usuario deberá escribir una descripcion deseada y presionar enter para que el programa arroje los resultados:
+
+     ![image](https://github.com/user-attachments/assets/863bdced-89ba-4ac7-9cf2-b65062d6b289)
+
+   - si el usuario no desea realizar mas busquedas debe escribir la palabra ***"salir"*** de esta manera el programa detendrá la busqueda:
+
+     ![image](https://github.com/user-attachments/assets/1651476f-2cf5-4330-99da-d2c84f5569ee)
 
 
 
