@@ -1,6 +1,6 @@
 ## COMO EJECUTAR PROYECTO
 
-***Proyecto buscador de peliculas semantico*** este proyecto permite a un usuarios obtener recomendaciones sobre peliculas, el usuario debe ingresar la tematica o descripcion corta sobre una pelicula y el proyecto le mostrará en pantalla varias resultados, que contiene peliculas relacionadas con dicha tematica o descripcion, tambien mostrará informacion relevante sobre la misma (reparto, director y descripción).
+***Proyecto buscador de peliculas semantico*** este proyecto permite a un usuarios obtener recomendaciones sobre peliculas, el usuario debe ingresar la temática o descripción corta sobre una pelicula y el proyecto le mostrará en pantalla varias resultados que le indicará peliculas relacionadas con dicha temática o descripción, tambien mostrará información relevante sobre la misma (reparto, director y descripción).
 
 1. Decargar repositorio https://github.com/felipkmpo/busquedasemantica, descargar los archivos de la carpeta ***"src"***
    
