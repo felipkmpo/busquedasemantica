@@ -35,13 +35,8 @@
 ***observacion:*** Confirmamos que se esta ejecutando correctamete nuestro entorno cuando la palabra ***env*** se habilita.
 
 
-7. Ahora continuamos con la ejecucion de nuestro proyecto, para eso debemos ejecutar el archivo .py con nombre "busquedasemantica.py",
-
-10. 
-
-REQUERIMIENTOS
-PYTHON 3.10 +
-ENTORNO DESARROLLO (VISUAL STUDIO CODE)
+7. Ahora continuamos con la ejecucion de nuestro proyecto, para eso debemos ejecutar el archivo .py con nombre "busquedasemantica.py", en el terminal nos situamos sobre el directorio src y ejecutamos el siguiente comando:
 
 
-CONFIGURANDO VIRTUALENV
+
+
