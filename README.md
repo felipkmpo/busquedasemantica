@@ -1,8 +1,12 @@
-## COMO EJECUTAR PROYECTO
-
 ***Proyecto buscador de peliculas semantico*** este proyecto permite a un usuarios obtener recomendaciones sobre peliculas, el usuario debe ingresar la temática o descripción corta sobre una pelicula y el proyecto le mostrará en pantalla varias resultados que le indicará peliculas relacionadas con dicha temática o descripción, tambien mostrará información relevante sobre la misma (reparto, director y descripción).
 
-1. Decargar repositorio https://github.com/felipkmpo/busquedasemantica, descargar los archivos de la carpeta ***"src"***
+### COMO EJECUTAR PROYECTO
+
+1. Decargar repositorio https://github.com/felipkmpo/busquedasemantica, descargar los archivos de la carpeta ***"src"***.
+  - archivos necesarios para la ejecución correcta:
+    - ***busuqedsemantica.py:*** codigo python con todas las instrucciones desarrolladas para nuestro proyecto
+    - ***IMDBtop1000.csv:*** dataset con 1000 registros para entrenar modelo
+    - ***requerimientos.txt:***archivo txt donde reposan todas las dependencias necesarias para ejecutar nuestro proyecto.
    
 2. Desde el ambiente de desarrollo (visual studio code)  o prompt deseado , abrir folder o carpeta que contiene los archivos del repositorio recien descargado.
    
