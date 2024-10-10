@@ -6,7 +6,7 @@
   - archivos necesarios para la ejecución correcta:
     - ***busquedasemantica.py:*** codigo python con todas las instrucciones desarrolladas para nuestro proyecto
     - ***IMDBtop1000.csv:*** dataset con 1000 registros para entrenar modelo
-    - ***requerimientos.txt:***archivo txt donde reposan todas las dependencias necesarias para ejecutar nuestro proyecto.
+    - ***requerimientos.txt:*** archivo txt donde reposan todas las dependencias necesarias para ejecutar nuestro proyecto.
    
 2. Desde el ambiente de desarrollo (visual studio code)  o prompt deseado , abrir folder o carpeta que contiene los archivos del repositorio recien descargado.
    
