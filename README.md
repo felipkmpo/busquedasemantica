@@ -17,7 +17,7 @@
 
  ![image](https://github.com/user-attachments/assets/7178b2e8-48f3-4ceb-ab25-5199dcbe454f)
 
-5. Para la correcta ejecucion de nuestro proyecto se instalaron las librerias ***pandas y sentence-trasnformes***, el archivo "requerimientos.txt" esta disponible dentro de la carpeta ***src*** para la instalacion de las dependencias requeridas para ejecutar el proyecto, esto lo podemos hacer ejecutando el comando "pip install - requerimientos.txt" mediante terminal, de esta manera garantizamos que todas las dependencias necesarias para la ejecucion de nuestro proyecto se instalen en la maquina.
+5. Para la correcta ejecución de nuestro proyecto se instalaron las librerias ***pandas y sentence-trasnformes***, el archivo "requerimientos.txt" esta disponible dentro de la carpeta ***src*** para la instalacion de las dependencias requeridas para ejecutar el proyecto, esto lo podemos hacer ejecutando el comando "pip install - requerimientos.txt" mediante terminal, de esta manera garantizamos que todas las dependencias necesarias para la ejecución de nuestro proyecto se instalen en la maquina.
 
 6. A continuacion creamos nuestro entorno virtual, ejecutamos la instruccion "virtualenv env" donde ***env*** sera el nombre de nuestro entorno (se puede modificar a preferencia):
 
