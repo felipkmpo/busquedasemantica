@@ -4,7 +4,7 @@
 
 1. Decargar repositorio https://github.com/felipkmpo/busquedasemantica, descargar los archivos de la carpeta ***"src"***.
   - archivos necesarios para la ejecución correcta:
-    - ***busquedsemantica.py:*** codigo python con todas las instrucciones desarrolladas para nuestro proyecto
+    - ***busquedasemantica.py:*** codigo python con todas las instrucciones desarrolladas para nuestro proyecto
     - ***IMDBtop1000.csv:*** dataset con 1000 registros para entrenar modelo
     - ***requerimientos.txt:***archivo txt donde reposan todas las dependencias necesarias para ejecutar nuestro proyecto.
    
