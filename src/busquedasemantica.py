@@ -60,7 +60,7 @@ while True:
     pelis['Description_Cast'] = pelis['Description'] + ' ' + pelis['Cast']
 
     # Seleccionamos las columnas relevantes
-    search_result = pelis[['Title', 'Description_Cast', 'similarity']].head()
+    search_result = pelis[['Title', 'Description_Cast']].head()
 
     # Guardamos los resultados en el nuevo dataframe
     df_results = pd.concat([df_results, search_result])

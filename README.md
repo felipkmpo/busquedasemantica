@@ -1,5 +1,8 @@
 ## COMO EJECUTAR PROYECTO
-1. Decargar repositorio https://github.com/felipkmpo/busquedasemantica/src, descargar los archivos de la carpeta ***"src"***
+
+***Proyecto buscador de peliculas semantico*** este proyecto permite a un usuarios obtener recomendaciones sobre peliculas, el usuario debe ingresar la tematica o descripcion corta sobre una pelicula y el proyecto le mostrará en pantalla varias resultados, que contiene peliculas relacionadas con dicha tematica o descripcion, tambien mostrara informacion relevante sobre la misma (reparto, director y descripción).
+
+1. Decargar repositorio https://github.com/felipkmpo/busquedasemantica, descargar los archivos de la carpeta ***"src"***
    
 2. Desde el ambiente de desarrollo (visual studio code)  o prompt deseado , abrir folder o carpeta que contiene los archivos del repositorio recien descargado.
    
@@ -14,7 +17,7 @@
 
  ![image](https://github.com/user-attachments/assets/7178b2e8-48f3-4ceb-ab25-5199dcbe454f)
 
-5. Para la correcta ejecucion de nuestro proyecto se instalaron las librerias ***pandas y sentence-trasnformes***, el archivo "requerimientos.txt" esta disponible dentro de la carpeta ***src*** para la instalacion de las dependencias requeridas para ejecutar el proyecto. 
+5. Para la correcta ejecucion de nuestro proyecto se instalaron las librerias ***pandas y sentence-trasnformes***, el archivo "requerimientos.txt" esta disponible dentro de la carpeta ***src*** para la instalacion de las dependencias requeridas para ejecutar el proyecto, esto lo podemos hacer ejecutando el comando "pip install - requerimientos.txt" mediante terminal, de esta manera garantizamos que todas las dependencias necesarias para la ejecucion de nuestro proyecto se instalen en la maquina.
 
 6. A continuacion creamos nuestro entorno virtual, ejecutamos la instruccion "virtualenv env" donde ***env*** sera el nombre de nuestro entorno (se puede modificar a preferencia):
 
@@ -32,8 +35,7 @@
 ***observacion:*** Confirmamos que se esta ejecutando correctamete nuestro entorno cuando la palabra ***env*** se habilita.
 
 
-
-7. 
+7. Ahora continuamos con la ejecucion de nuestro proyecto, para eso debemos ejecutar el archivo .py con nombre "busquedasemantica.py",
 
 10. 
 
